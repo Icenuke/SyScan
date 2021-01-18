@@ -1,0 +1,16 @@
+[package]
+name = "SyScan"
+version = "0.1.0"
+authors = ["Icenuke"]
+edition = '2018'
+description = "Just a simple hashing System Scanner."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.13"
+exitcode = "1.1.2"
+walkdir = "2"
+ring = "0.13.5"
+data-encoding = "2.2.0"
+error-chain = "0.12.4"
